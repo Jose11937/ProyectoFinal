@@ -41,6 +41,11 @@ class SingIn : AppCompatActivity() {
             val intent = Intent(this, SignUp::class.java)
             startActivity(intent)
         }
+
+        binding.recoveryAccountTextView.setOnClickListener {
+            val intent = Intent(this, AccountRecovery::class.java)
+            startActivity(intent)
+        }
     }
 
     public override fun onStart() {
