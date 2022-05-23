@@ -21,16 +21,16 @@
             android:id="@+id/bgProfileImageView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:contentDescription="@string/all"
             android:scaleType="centerCrop"
-            app:srcCompat="@color/black" />
+            android:contentDescription="@string/all"
+            app:srcCompat="@drawable/profile_photo" />
     </androidx.cardview.widget.CardView>
 
     <View
         android:id="@+id/view2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@mipmap/pntree"
+        android:background="@drawable/ic_bg"
         app:layout_constraintBottom_toBottomOf="@+id/cardView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -105,7 +105,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/all"
-            app:srcCompat="@mipmap/robot" />
+            app:srcCompat="@mipmap/f3fab2bb917c3adfa488697e650411d8" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
