@@ -17,6 +17,7 @@ class SingIn : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         binding = ActivitySignInBinding.inflate(layoutInflater)
         setContentView(binding.root)
         auth = Firebase.auth
@@ -34,6 +35,11 @@ class SingIn : AppCompatActivity() {
                     SignIn(mEmail, mPassword)
                 }
             }
+        }
+
+        binding.signUpTextView.setOnClickListener {
+            val intent = Intent(this, SignUp::class.java)
+            startActivity(intent)
         }
     }
 

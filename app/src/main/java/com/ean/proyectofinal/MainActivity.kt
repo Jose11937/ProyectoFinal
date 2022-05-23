@@ -1,5 +1,6 @@
 package com.ean.proyectofinal
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.ean.proyectofinal.databinding.ActivityMainBinding
@@ -17,5 +18,13 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         auth = Firebase.auth
+
+        signOut()
+    }
+
+    private fun signOut(){
+        Firebase.auth.signOut()
+        val intent = Intent(this, SingIn::class.java)
+        startActivity(intent)
     }
 }
