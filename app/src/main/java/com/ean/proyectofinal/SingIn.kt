@@ -47,7 +47,12 @@ class SingIn : AppCompatActivity() {
         super.onStart()
         val currentUser = auth.currentUser
         if(currentUser != null){
-            reload();
+            if (currentUser.isEmailVerified){
+                reload()
+            }else{
+                val intent = Intent(this, CheckEmail::class.java)
+                startActivity(intent)
+            }
         }
     }
 

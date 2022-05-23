@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoFinal">
         <activity
+            android:name=".AccountRecovery"
+            android:exported="false" />
+        <activity
             android:name=".CheckEmail"
             android:exported="false" />
         <activity

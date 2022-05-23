@@ -52,6 +52,19 @@ class SignUp : AppCompatActivity() {
         }
     }
 
+    public override fun onStart() {
+        super.onStart()
+        val currentUser = auth.currentUser
+        if(currentUser != null){
+            if (currentUser.isEmailVerified){
+                reload()
+            }else{
+                val intent = Intent(this, CheckEmail::class.java)
+                startActivity(intent)
+            }
+        }
+    }
+
     private fun createAccount(email : String, password : String){
         auth.createUserWithEmailAndPassword(email, password)
             .addOnCompleteListener(this) { task ->
@@ -65,5 +78,10 @@ class SignUp : AppCompatActivity() {
                 }
             }
 
+    }
+
+    private fun reload() {
+        val intent = Intent(this, MainActivity::class.java)
+        this.startActivity(intent)
     }
 }

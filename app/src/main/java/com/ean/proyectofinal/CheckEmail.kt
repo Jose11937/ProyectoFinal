@@ -10,6 +10,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.auth.ktx.userProfileChangeRequest
 import com.google.firebase.ktx.Firebase
+import kotlin.math.sign
 
 class CheckEmail : AppCompatActivity() {
 
@@ -40,6 +41,10 @@ class CheckEmail : AppCompatActivity() {
                 }
             }
         }
+
+        binding.signOutImageView.setOnClickListener {
+            signOut()
+        }
     }
 
     public override fun onStart() {
@@ -67,5 +72,11 @@ class CheckEmail : AppCompatActivity() {
                     Toast.LENGTH_SHORT).show()
             }
         }
+    }
+
+    private fun signOut(){
+        Firebase.auth.signOut()
+        val intent = Intent(this, SingIn::class.java)
+        startActivity(intent)
     }
 }
