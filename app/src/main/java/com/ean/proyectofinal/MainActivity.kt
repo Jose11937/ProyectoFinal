@@ -19,12 +19,24 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         auth = Firebase.auth
 
-        signOut()
+        binding.signOutImageView.setOnClickListener {
+            signOut()
+        }
     }
 
     private fun signOut(){
         Firebase.auth.signOut()
         val intent = Intent(this, SingIn::class.java)
         startActivity(intent)
+    }
+
+    private fun updateUI(){
+        val user = auth.currentUser
+
+        if(user != null){
+            binding.emailTextView.text = user.email
+            binding.nameTextView.text = user.displayName
+            binding.nameEditText.setText(user.displayName)
+        }
     }
 }
