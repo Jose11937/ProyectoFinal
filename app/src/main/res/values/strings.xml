@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">App Proyecto N y J</string>
-    <string name="title_active_login">Login App</string>
+    <string name="app_name">Only Fats</string>
+    <string name="title_active_login">Only Fats</string>
     <string name="password">Contraseña</string>
     <string name="new_password">Nueva contraseña</string>
     <string name="current_password">Contraseña actual</string>

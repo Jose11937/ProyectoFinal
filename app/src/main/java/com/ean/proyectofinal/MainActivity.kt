@@ -37,6 +37,11 @@ class MainActivity : AppCompatActivity() {
             updateProfile(name)
         }
 
+        binding.seguir.setOnClickListener {
+            val intent = Intent(this, principal::class.java)
+            startActivity(intent)
+        }
+
         binding.profileImageView.setOnClickListener {
             fileManager()
         }
@@ -50,6 +55,7 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, DeleteAccount::class.java)
             startActivity(intent)
         }
+
 
         updateUI()
     }
@@ -87,7 +93,7 @@ class MainActivity : AppCompatActivity() {
                 .with(this)
                 .load(user.photoUrl)
                 .centerCrop()
-                .placeholder(android.R.drawable.ic_delete)
+                .placeholder(R.drawable.profile_photo)
                 .into(binding.profileImageView)
             Glide
                 .with(this)

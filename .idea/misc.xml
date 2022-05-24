@@ -28,11 +28,10 @@
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/ic_user.xml" value="0.1095" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/purple_banner.xml" value="0.2075" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_account_recovery.xml" value="0.2" />
-        <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_check_email.xml" value="0.12" />
-        <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_delete_account.xml" value="0.15" />
-        <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_inicio.xml" value="0.15" />
-        <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_main.xml" value="0.16" />
-        <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_principal.xml" value="0.2" />
+        <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_check_email.xml" value="0.2" />
+        <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_delete_account.xml" value="0.2" />
+        <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_principal.xml" value="0.25" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_sign_in.xml" value="0.2" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_update_password.xml" value="0.2" />
