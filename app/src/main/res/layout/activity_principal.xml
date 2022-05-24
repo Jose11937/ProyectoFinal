@@ -138,10 +138,11 @@
 
                     <ImageView
                         android:id="@+id/imageView3"
-                        android:layout_width="191dp"
-                        android:layout_height="77dp"
-                        android:layout_marginTop="24dp"
+                        android:layout_width="212dp"
+                        android:layout_height="90dp"
+                        android:layout_marginTop="28dp"
                         app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.497"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:srcCompat="@drawable/only_fats" />
@@ -163,13 +164,13 @@
                         android:id="@+id/textView15"
                         android:layout_width="166dp"
                         android:layout_height="32dp"
-                        android:layout_marginTop="24dp"
+                        android:layout_marginTop="16dp"
                         android:text="Los favoritos"
                         android:textColor="#000000"
                         android:textSize="20dp"
                         android:textStyle="bold|italic"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.104"
+                        app:layout_constraintHorizontal_bias="0.18"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
@@ -192,13 +193,14 @@
 
                                 <ImageView
                                     android:id="@+id/imageView8"
-                                    android:layout_width="158dp"
-                                    android:layout_height="76dp"
+                                    android:layout_width="141dp"
+                                    android:layout_height="78dp"
                                     android:layout_marginBottom="1dp"
                                     app:layout_constraintBottom_toTopOf="@+id/textView"
                                     app:layout_constraintTop_toTopOf="parent"
+                                    app:layout_constraintVertical_bias="0.357"
                                     app:srcCompat="@drawable/icons_burger"
-                                    tools:layout_editor_absoluteX="-1dp" />
+                                    tools:layout_editor_absoluteX="-6dp" />
 
                                 <TextView
                                     android:id="@+id/textView"
@@ -211,8 +213,8 @@
 
                                 <ImageView
                                     android:id="@+id/imageView12"
-                                    android:layout_width="134dp"
-                                    android:layout_height="73dp"
+                                    android:layout_width="145dp"
+                                    android:layout_height="76dp"
                                     android:layout_marginTop="32dp"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintHorizontal_bias="0.478"
@@ -225,7 +227,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="80dp"
-                                    android:text="Cerveza"
+                                    android:text="Cervezas"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintStart_toStartOf="parent"
                                     app:layout_constraintTop_toTopOf="@+id/imageView12" />
@@ -265,8 +267,8 @@
 
                                 <ImageView
                                     android:id="@+id/imageView13"
-                                    android:layout_width="121dp"
-                                    android:layout_height="75dp"
+                                    android:layout_width="186dp"
+                                    android:layout_height="78dp"
                                     android:layout_marginTop="48dp"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintHorizontal_bias="0.509"
@@ -280,8 +282,9 @@
                                     android:layout_height="wrap_content"
                                     android:text="Hot dog"
                                     app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintHorizontal_bias="0.492"
                                     app:layout_constraintStart_toStartOf="parent"
-                                    tools:layout_editor_absoluteY="204dp" />
+                                    tools:layout_editor_absoluteY="212dp" />
                             </androidx.constraintlayout.widget.ConstraintLayout>
 
                         </LinearLayout>
@@ -317,21 +320,22 @@
 
                                 <ImageView
                                     android:id="@+id/imageView15"
-                                    android:layout_width="102dp"
+                                    android:layout_width="128dp"
                                     android:layout_height="75dp"
                                     android:layout_weight="1"
                                     app:srcCompat="@drawable/icons_donut"
-                                    tools:layout_editor_absoluteX="6dp"
+                                    tools:layout_editor_absoluteX="-11dp"
                                     tools:layout_editor_absoluteY="130dp" />
 
                                 <TextView
                                     android:id="@+id/textView16"
-                                    android:layout_width="54dp"
-                                    android:layout_height="21dp"
+                                    android:layout_width="56dp"
+                                    android:layout_height="23dp"
                                     android:text="Donas"
                                     app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintHorizontal_bias="0.491"
                                     app:layout_constraintStart_toStartOf="parent"
-                                    tools:layout_editor_absoluteY="205dp" />
+                                    tools:layout_editor_absoluteY="213dp" />
 
                             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -381,8 +385,8 @@
 
                 <ImageView
                     android:id="@+id/imageViews"
-                    android:layout_width="161dp"
-                    android:layout_height="54dp"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent"
                     app:srcCompat="@drawable/ic_baseline_house_24" />
 
             </LinearLayout>
@@ -395,7 +399,7 @@
                 <ImageView
                     android:id="@+id/imageView4"
                     android:layout_width="match_parent"
-                    android:layout_height="49dp"
+                    android:layout_height="46dp"
                     app:srcCompat="@drawable/ic_baseline_person_24" />
             </LinearLayout>
         </LinearLayout>
