@@ -48,7 +48,7 @@
                         android:background="@drawable/buscar"
                         android:drawableStart="@drawable/ic_baseline_search_24"
                         android:ems="10"
-                        android:hint="Buscar comida"
+                        android:hint="Buscar restaurante o comida"
                         android:inputType="textPersonName"
                         android:paddingStart="20dp"
                         android:textSize="14sp"
@@ -63,8 +63,8 @@
 
                     <TextView
                         android:id="@+id/textView9"
-                        android:layout_width="414dp"
-                        android:layout_height="39dp"
+                        android:layout_width="338dp"
+                        android:layout_height="33dp"
                         android:layout_marginTop="64dp"
                         android:textColor="#FFFFFF"
                         android:textSize="20dp"
@@ -153,7 +153,7 @@
             <LinearLayout
                 android:id="@+id/linearLayout5"
                 android:layout_width="match_parent"
-                android:layout_height="330dp"
+                android:layout_height="345dp"
                 android:orientation="vertical">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -241,8 +241,8 @@
                             android:orientation="vertical">
 
                             <androidx.constraintlayout.widget.ConstraintLayout
-                                android:layout_width="105dp"
-                                android:layout_height="270dp">
+                                android:layout_width="match_parent"
+                                android:layout_height="286dp">
 
                                 <ImageView
                                     android:id="@+id/imageView9"
@@ -351,65 +351,43 @@
     </ScrollView>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
-        android:layout_width="423dp"
-        android:layout_height="79dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
         android:fitsSystemWindows="true"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="0dp">
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2">
 
 
         <com.google.android.material.bottomappbar.BottomAppBar
             android:id="@+id/app_bar"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_gravity="bottom"
             android:backgroundTint="#8b00fc"
-            android:visibility="visible"
+            android:lagout_gravity="botton"
             app:fabCradleMargin="8dp"
             app:fabCradleRoundedCornerRadius="150dp"
             app:fabCradleVerticalOffset="1dp" />
 
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/floatingActionButton"
-            android:layout_width="wrap_content"
-            android:layout_height="54dp"
-            android:backgroundTint="#efcafc"
-            android:elevation="2dp"
-            android:src="@drawable/ic_baseline_shopping_cart_24"
-            app:backgroundTint="#efcafc"
-            app:layout_anchor="@id/app_bar"
-            app:layout_anchorGravity="center"
-            tools:ignore="MissingConstraints,SpeakableTextPresentCheck,SpeakableTextPresentCheck">
-
-        </com.google.android.material.floatingactionbutton.FloatingActionButton>
-
         <LinearLayout
             android:id="@+id/linearLayout4"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="182dp"
             android:orientation="horizontal"
             app:layout_anchor="@+id/floatingActionButton"
             app:layout_anchorGravity="top|center">
 
             <LinearLayout
                 android:id="@+id/homeBtn"
-                android:layout_width="189dp"
-                android:layout_height="match_parent"
-                android:layout_weight="100"
+                android:layout_width="160dp"
+                android:layout_height="41dp"
+                android:layout_weight="0.2"
                 android:orientation="vertical">
 
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:id="@+id/imageViews"
-                        android:layout_width="39dp"
-                        android:layout_height="40dp"
-                        app:srcCompat="@drawable/ic_baseline_house_24"
-                        tools:layout_editor_absoluteX="59dp"
-                        tools:layout_editor_absoluteY="34dp" />
-                </androidx.constraintlayout.widget.ConstraintLayout>
+                <ImageView
+                    android:id="@+id/imageViews"
+                    android:layout_width="175dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/ic_baseline_house_24" />
 
             </LinearLayout>
 
@@ -418,21 +396,27 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
-                <androidx.constraintlayout.widget.ConstraintLayout
+                <ImageView
+                    android:id="@+id/imageView4"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:id="@+id/imageView4"
-                        android:layout_width="99dp"
-                        android:layout_height="42dp"
-                        app:srcCompat="@drawable/ic_baseline_person_24"
-                        tools:layout_editor_absoluteX="49dp"
-                        tools:layout_editor_absoluteY="35dp" />
-                </androidx.constraintlayout.widget.ConstraintLayout>
-
+                    android:layout_height="46dp"
+                    app:srcCompat="@drawable/ic_baseline_person_24" />
             </LinearLayout>
         </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:backgroundTint="#efcafc"
+            android:elevation="3dp"
+            android:src="@drawable/ic_baseline_shopping_cart_24"
+            app:backgroundTint="#efcafc"
+            app:layout_anchor="@id/app_bar"
+            app:layout_anchorGravity="center"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck,SpeakableTextPresentCheck">
+
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 

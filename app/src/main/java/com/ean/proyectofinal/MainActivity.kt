@@ -5,6 +5,7 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 import android.widget.Toast
 import com.bumptech.glide.Glide
 import com.ean.proyectofinal.databinding.ActivityMainBinding
@@ -51,6 +52,13 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val userseguir = findViewById<Button>(R.id.seguir)
+
+        userseguir.setOnClickListener {
+            val intent = Intent(this, principal::class.java)
+            startActivity(intent)
+        }
+
         updateUI()
     }
 
@@ -87,7 +95,7 @@ class MainActivity : AppCompatActivity() {
                 .with(this)
                 .load(user.photoUrl)
                 .centerCrop()
-                .placeholder(android.R.drawable.ic_delete)
+                .placeholder(R.drawable.profile_photo)
                 .into(binding.profileImageView)
             Glide
                 .with(this)
