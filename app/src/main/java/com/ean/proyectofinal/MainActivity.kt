@@ -5,6 +5,7 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 import android.widget.Toast
 import com.bumptech.glide.Glide
 import com.ean.proyectofinal.databinding.ActivityMainBinding
@@ -37,11 +38,6 @@ class MainActivity : AppCompatActivity() {
             updateProfile(name)
         }
 
-        binding.seguir.setOnClickListener {
-            val intent = Intent(this, principal::class.java)
-            startActivity(intent)
-        }
-
         binding.profileImageView.setOnClickListener {
             fileManager()
         }
@@ -56,6 +52,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val userseguir = findViewById<Button>(R.id.seguir)
+
+        userseguir.setOnClickListener {
+            val intent = Intent(this, principal::class.java)
+            startActivity(intent)
+        }
 
         updateUI()
     }
