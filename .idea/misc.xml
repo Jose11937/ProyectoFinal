@@ -12,6 +12,7 @@
         <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_update_password.xml" value="0.22" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1095" />
+        <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/activity_splash_screen.xml" value="0.167" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/buscar.xml" value="0.2075" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.1" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/ic_back.xml" value="0.1095" />
@@ -28,11 +29,18 @@
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/ic_sign_out.xml" value="0.1095" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/ic_user.xml" value="0.1095" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/purple_banner.xml" value="0.2075" />
+        <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/purple_banner2.xml" value="0.2075" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_account_recovery.xml" value="0.2" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_check_email.xml" value="0.2" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_delete_account.xml" value="0.2" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_inicio.xml" value="0.1111111111111111" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_mostrar_beer.xml" value="0.11919398907103824" />
+        <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_mostrar_burrito.xml" value="0.11919398907103824" />
+        <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_mostrar_detalles.xml" value="0.1" />
+        <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_mostrar_dog.xml" value="0.11919398907103824" />
+        <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_mostrar_donas.xml" value="0.11919398907103824" />
+        <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_mostrar_empanada.xml" value="0.11919398907103824" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_principal.xml" value="0.15" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_sign_in.xml" value="0.2" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
