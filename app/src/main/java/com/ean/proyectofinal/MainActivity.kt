@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
         val userseguir = findViewById<Button>(R.id.seguir)
 
         userseguir.setOnClickListener {
-            val intent = Intent(this, principal::class.java)
+            val intent = Intent(this, FoodPrincipal::class.java)
             startActivity(intent)
         }
 

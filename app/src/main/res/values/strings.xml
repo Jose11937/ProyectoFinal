@@ -29,4 +29,15 @@
     <string name="title_delete_account">Eliminar cuenta</string>
     <string name="subtitle_delete_account">Por motivos de seguridad para eliminar tu cuenta por completo, debes de ingresar tu contraseña.</string>
     <string name="delete">Eliminar</string>
+    <string name="title_main">Lista de comidas</string>
+    <string name="sub_title_main">Lo mejor del menú</string>
+    <string name="date">26 / 05 / 2022</string>
+    <string name="price">10.000 $</string>
+    <string name="description"> Pan artesanal, queso cheddar, lechuga cogollo europeo, tomate larga vida, pimienta recién molida y mezcla de carne molida. </string>
+    <string name="name_form">Nombre</string>
+    <string name="date_form">Fecha</string>
+    <string name="price_form">Precio</string>
+    <string name="action_form">Guardar</string>
+    <string name="description_form">Descripción</string>
+
 </resources>

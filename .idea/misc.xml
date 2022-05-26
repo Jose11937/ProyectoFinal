@@ -5,9 +5,15 @@
       <map>
         <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/ic_back.xml" value="0.2765" />
+        <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/ic_bg.xml" value="0.1" />
         <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_account_recovery.xml" value="0.22" />
+        <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_add.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_check_email.xml" value="0.13247213779128672" />
         <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_delete_account.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_detail.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_edit.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_food_content.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_food_principal.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_mostrar_beer.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_principal.xml" value="0.1" />
