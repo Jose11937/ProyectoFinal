@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoFinal">
         <activity
-            android:name=".MostrarDetalles"
+            android:name=".MostrarBurger"
             android:exported="false" />
         <activity
             android:name=".SplashScreen"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:circularflow_defaultRadius="50dp"
-    tools:context=".MostrarDetalles">
+    tools:context=".MostrarBurger">
 
     <ScrollView
         android:id="@+id/scrollView3"
