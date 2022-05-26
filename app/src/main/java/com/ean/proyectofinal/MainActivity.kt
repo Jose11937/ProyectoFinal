@@ -52,6 +52,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+
         val userseguir = findViewById<Button>(R.id.seguir)
 
         userseguir.setOnClickListener {

@@ -363,7 +363,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:backgroundTint="#8b00fc"
-            android:lagout_gravity="botton"
+            android:layout_gravity="bottom"
             app:fabCradleMargin="8dp"
             app:fabCradleRoundedCornerRadius="150dp"
             app:fabCradleVerticalOffset="1dp" />
