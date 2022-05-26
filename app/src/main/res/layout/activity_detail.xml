@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/plum_700"
-    tools:context=".DetailActivity">
+    android:background="@color/teal_200"
+    tools:context=".Detail">
 
     <ImageView
         android:id="@+id/posterImgeView"
@@ -35,7 +35,7 @@
         android:id="@+id/cardView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardBackgroundColor="@color/plum_700"
+        app:cardBackgroundColor="@color/teal_200"
         app:cardCornerRadius="40dp"
         app:cardElevation="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -61,7 +61,7 @@
                 android:layout_toStartOf="@+id/priceTextView"
                 android:layout_toLeftOf="@+id/priceTextView"
                 android:text="@string/name"
-                android:textColor="@color/teal_500"
+                android:textColor="@color/black"
                 android:textSize="24sp" />
 
             <TextView
@@ -74,7 +74,7 @@
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="32dp"
                 android:layout_marginRight="32dp"
-                android:background="@drawable/ic_round_description"
+                android:background="@drawable/buscar"
                 android:paddingStart="20dp"
                 android:paddingLeft="20dp"
                 android:paddingTop="4dp"
@@ -82,7 +82,7 @@
                 android:paddingRight="20dp"
                 android:paddingBottom="4dp"
                 android:text="@string/price"
-                android:textColor="@color/orange_200"
+                android:textColor="@color/black"
                 android:textSize="20sp" />
 
             <TextView
@@ -101,7 +101,7 @@
                 android:layout_marginRight="32dp"
                 android:gravity="end"
                 android:text="@string/date"
-                android:textColor="@color/black_200" />
+                android:textColor="@color/black_700" />
 
             <TextView
                 android:id="@+id/descriptionTextView"
@@ -119,7 +119,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="32dp"
                 android:text="@string/description"
-                android:textColor="@color/white" />
+                android:textColor="@color/black" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

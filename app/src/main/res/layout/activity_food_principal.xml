@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple_700"
+    android:background="@color/teal_700"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
             android:text="@string/title_main"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
         <TextView
@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/sub_title_main"
-            android:textColor="@color/black_500" />
+            android:textColor="@color/black" />
     </LinearLayout>
 
     <androidx.cardview.widget.CardView
@@ -41,9 +41,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
-        app:cardMaxElevation="0.5dp"
         android:layout_marginRight="20sp"
         app:cardCornerRadius="31dp"
+        app:cardMaxElevation="0.5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
