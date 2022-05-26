@@ -12,8 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoFinal">
         <activity
-            android:name=".SplashScreen"
+            android:name=".Splash"
             android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="false"
+            android:theme="@style/SplashTheme" />
         <activity
             android:name=".principal"
             android:exported="false" />
@@ -38,8 +42,7 @@
             android:theme="@style/Theme.Main" />
         <activity
             android:name=".SingIn"
-            android:exported="true"
-            android:theme = "@style/SplashTheme">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -3,13 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/ic_back.xml" value="0.2765" />
         <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_account_recovery.xml" value="0.22" />
         <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_check_email.xml" value="0.13247213779128672" />
         <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_delete_account.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_principal.xml" value="0.1" />
         <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
         <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_splash.xml" value="0.25" />
         <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_update_password.xml" value="0.22" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1095" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/buscar.xml" value="0.2075" />
@@ -18,7 +21,6 @@
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/ic_baseline_add_shopping_cart_24.xml" value="0.1" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/ic_baseline_house_24.xml" value="0.1095" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1095" />
-        <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/ic_bg.xml" value="0.1785" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/ic_buttom.xml" value="0.1095" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/ic_email.xml" value="0.1095" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/ic_field.xml" value="0.199" />
@@ -33,12 +35,9 @@
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_delete_account.xml" value="0.2" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_inicio.xml" value="0.1111111111111111" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_principal.xml" value="0.15" />
+        <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_principal.xml" value="0.18" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_sign_in.xml" value="0.2" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
-        <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_splash.xml" value="0.2" />
-        <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_splash_screen.xml" value="0.11319444444444444" />
-        <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_styles.xml" value="0.1111111111111111" />
         <entry key="..\:/Users/nataz/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_update_password.xml" value="0.2" />
       </map>
     </option>

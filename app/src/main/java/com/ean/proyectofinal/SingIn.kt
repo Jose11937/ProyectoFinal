@@ -3,6 +3,7 @@ package com.ean.proyectofinal
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.CountDownTimer
 import android.util.Log
 import android.widget.Toast
 import com.ean.proyectofinal.databinding.ActivitySignInBinding
@@ -15,12 +16,9 @@ class SingIn : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
     private lateinit var binding: ActivitySignInBinding
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState: Bundle?){
+
         super.onCreate(savedInstanceState)
-
-        Thread.sleep(2000)
-        setTheme(R.style.SplashTheme)
-
         binding = ActivitySignInBinding.inflate(layoutInflater)
         setContentView(binding.root)
         auth = Firebase.auth
@@ -50,6 +48,8 @@ class SingIn : AppCompatActivity() {
             startActivity(intent)
         }
     }
+
+
 
     public override fun onStart() {
         super.onStart()
