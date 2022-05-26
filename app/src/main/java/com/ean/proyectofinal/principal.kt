@@ -27,37 +27,37 @@ class principal : AppCompatActivity() {
 
         val userbueger = findViewById<ImageButton>(R.id.HamburgesaButton)
 
-        userregresar.setOnClickListener {
+        userbueger.setOnClickListener {
             val intent = Intent(this, MostrarBurger::class.java)
             startActivity(intent)
         }
         val userbeer = findViewById<ImageButton>(R.id.BebidasButton)
 
-        userregresar.setOnClickListener {
+        userbeer.setOnClickListener {
             val intent = Intent(this, MostrarBeer::class.java)
             startActivity(intent)
         }
         val userburr = findViewById<ImageButton>(R.id.BurritosButton)
 
-        userregresar.setOnClickListener {
+        userburr.setOnClickListener {
             val intent = Intent(this, MostrarBurrrito::class.java)
             startActivity(intent)
         }
         val userdog = findViewById<ImageButton>(R.id.HotDogsButton)
 
-        userregresar.setOnClickListener {
+        userdog.setOnClickListener {
             val intent = Intent(this, MostrarDog::class.java)
             startActivity(intent)
         }
         val userempana = findViewById<ImageButton>(R.id.EmpanadasButton)
 
-        userregresar.setOnClickListener {
+        userempana.setOnClickListener {
             val intent = Intent(this, MostrarEmpanadas::class.java)
             startActivity(intent)
         }
         val userdona = findViewById<ImageButton>(R.id.DonutsButton)
 
-        userregresar.setOnClickListener {
+        userdona.setOnClickListener {
             val intent = Intent(this, MostrarDonas::class.java)
             startActivity(intent)
         }
