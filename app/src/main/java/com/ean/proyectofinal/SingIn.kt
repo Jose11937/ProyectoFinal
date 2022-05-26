@@ -18,6 +18,9 @@ class SingIn : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        Thread.sleep(2000)
+        setTheme(R.style.SplashTheme)
+
         binding = ActivitySignInBinding.inflate(layoutInflater)
         setContentView(binding.root)
         auth = Firebase.auth
