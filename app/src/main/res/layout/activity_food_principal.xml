@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/teal_700"
+    android:background="#1f4068"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -23,16 +23,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
+            android:textStyle="bold"
             android:text="@string/title_main"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textColor="@color/white"
+            android:textSize="25sp" />
 
         <TextView
             android:id="@+id/subtTitleTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/sub_title_main"
-            android:textColor="@color/black" />
+            android:textColor="@color/white" />
     </LinearLayout>
 
     <androidx.cardview.widget.CardView
@@ -78,6 +79,7 @@
             android:layout_height="match_parent"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
+            android:background="#1"
             android:layout_marginEnd="80dp"
             android:layout_marginRight="80dp"
             android:layout_marginBottom="80dp"
