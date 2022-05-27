@@ -139,5 +139,6 @@ class FoodPrincipal : AppCompatActivity() {
         }
         val itemTouchHelper = ItemTouchHelper(touchHelperCallback)
         itemTouchHelper.attachToRecyclerView(recyclerView)
+        }
     }
 }

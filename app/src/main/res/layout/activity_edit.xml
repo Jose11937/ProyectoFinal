@@ -125,31 +125,7 @@
                 android:layout_toEndOf="@+id/priceEditText"
                 android:layout_toRightOf="@+id/priceTextView"
                 android:text="@string/date_form"
-                android:textColor="@color/black_500" />
-
-            <EditText
-                android:id="@+id/dateEditText"
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_below="@+id/dateTextView"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_marginStart="12dp"
-                android:layout_marginLeft="12dp"
-                android:layout_marginEnd="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_toEndOf="@+id/priceTextView"
-                android:layout_toRightOf="@+id/priceEditText"
-                android:autofillHints=""
-                android:background="@drawable/ic_field"
-                android:ems="10"
-                android:hint="@string/date_form"
-                android:inputType="textUri|text|datetime"
-                android:paddingLeft="16dp"
-                android:paddingTop="8dp"
-                android:textSize="16sp"
-                android:paddingRight="16dp"
-                android:paddingBottom="8dp" />
+                android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/descriptionTextView"
