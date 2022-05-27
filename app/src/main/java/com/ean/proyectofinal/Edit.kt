@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.content.Intent
 import android.net.Uri
-
 import android.text.Editable
 import android.util.Log
 import com.bumptech.glide.Glide
@@ -19,6 +18,7 @@ import com.google.firebase.storage.StorageReference
 import java.security.Key
 
 class Edit : AppCompatActivity() {
+
     private lateinit var bindingActivityEdit: ActivityEditBinding
     private val file = 1
     private var fileUri: Uri? = null
