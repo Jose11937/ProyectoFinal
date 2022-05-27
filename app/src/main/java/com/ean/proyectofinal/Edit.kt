@@ -18,7 +18,6 @@ import com.google.firebase.storage.StorageReference
 import java.security.Key
 
 class Edit : AppCompatActivity() {
-
     private lateinit var bindingActivityEdit: ActivityEditBinding
     private val file = 1
     private var fileUri: Uri? = null

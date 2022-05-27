@@ -43,6 +43,11 @@ class FoodPrincipal : AppCompatActivity() {
             v.context.startActivity(intent)
         }
 
+        listVideoGames.clear()
+        setupRecyclerview(bindingFoodPrincipal.reciclervierw)
+    }
+
+
 
 
     fun setupRecyclerView(recyclerView: RecyclerView) {
@@ -60,7 +65,7 @@ class FoodPrincipal : AppCompatActivity() {
                             resp.key)
                     mAlimento.let { listVideoGames.add(it) }
                 }
-                // recyclerView.adapter = VideogameViewAdapter(listVideoGames)
+                recyclerView.adapter = VideogameViewAdapter(listVideoGames)
             }
 
             override fun onCancelled(error: DatabaseError) {
@@ -69,7 +74,7 @@ class FoodPrincipal : AppCompatActivity() {
         }
         myRef.addValueEventListener(messagesListener)
 
-        //deleteSwipe(recyclerView)
+        deleteSwipe(recyclerView)
     }
 
     class VideogameViewAdapter(private val values: List<Alimento>) :
