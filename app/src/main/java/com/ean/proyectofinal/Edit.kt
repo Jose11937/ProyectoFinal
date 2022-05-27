@@ -65,7 +65,6 @@ class Edit : AppCompatActivity() {
         bindingActivityEdit.saveButton.setOnClickListener {
 
             val name : String = bindingActivityEdit.nameEditText.text.toString()
-            val date : String = bindingActivityEdit.dateEditText.text.toString()
             val price : String = bindingActivityEdit.priceEditText.text.toString()
             val description: String = bindingActivityEdit.descriptionEditText.text.toString()
 
