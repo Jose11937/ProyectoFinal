@@ -207,7 +207,7 @@
                 android:background="@drawable/ic_btn"
                 android:gravity="center"
                 android:text="@string/action_form"
-                android:textColor="@color/white"/>
+                android:textColor="@color/white" />
 
         </RelativeLayout>
     </androidx.cardview.widget.CardView>

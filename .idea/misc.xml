@@ -3,6 +3,38 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/drawable/ic_back.xml" value="0.102" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/drawable/ic_baseline_add_shopping_cart_24.xml" value="0.102" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/drawable/ic_baseline_house_24.xml" value="0.102" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.102" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.102" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.102" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/drawable/ic_bg.xml" value="0.102" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/drawable/ic_btn.xml" value="0.102" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/drawable/ic_buttom.xml" value="0.102" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/drawable/ic_email.xml" value="0.102" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/drawable/ic_fab.xml" value="0.102" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/drawable/ic_field.xml" value="0.102" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/drawable/ic_gradient_white.xml" value="0.102" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/drawable/ic_launcher_background.xml" value="0.102" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/drawable/ic_lock.xml" value="0.102" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/drawable/ic_round_description.xml" value="0.102" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/drawable/ic_round_left.xml" value="0.102" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/drawable/ic_sign_out.xml" value="0.102" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/drawable/ic_user.xml" value="0.102" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/layout/activity_account_recovery.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/layout/activity_add.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/layout/activity_check_email.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/layout/activity_delete_account.xml" value="0.10235507246376811" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/layout/activity_detail.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/layout/activity_edit.xml" value="0.22" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/layout/activity_food_content.xml" value="0.10235507246376811" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/layout/activity_food_principal.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/layout/activity_sign_in.xml" value="0.10235507246376811" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/layout/activity_sign_up.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/layout/activity_splash.xml" value="0.10235507246376811" />
+        <entry key="..\:/Users/braya/AndroidStudioProjects/Proyecto/ProyectoFinal/app/src/main/res/layout/activity_update_password.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/drawable/ic_back.xml" value="0.2765" />
         <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_account_recovery.xml" value="0.22" />
         <entry key="..\:/Users/junio/AndroidStudioProjects/ProyectoFinal/app/src/main/res/layout/activity_check_email.xml" value="0.13247213779128672" />
